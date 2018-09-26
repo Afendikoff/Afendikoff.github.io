@@ -1,0 +1,8 @@
+@mixin icon-bg {
+        content: "";
+        position: absolute;
+        top: 25px;
+        left: 40px;
+        width: 65px;
+        height: 65px; 
+}

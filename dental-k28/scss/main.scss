@@ -1,0 +1,67 @@
+@import "_vars";
+@import "_fonts";
+@import "_libs";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: $default-font;
+  line-height: 23px;
+  font-weight: 300;
+  color: $color-text;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.width-content {
+  min-height: 350px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; 
+}
+
+
+
+@import "_blocks/page-header";
+@import "_blocks/main-navigation";
+@import "_blocks/button";
+@import "_blocks/banner";
+@import "_blocks/service-icon";
+@import "_blocks/section-title";
+@import "_blocks/service";
+@import "_blocks/confidence";
+@import "_blocks/contacts";
+@import "_blocks/specialists";
+@import "_blocks/reviews";
+@import "_blocks/page-footer";
+@import "_blocks/social";
+@import "_blocks/content";
+
+
+
+
+
+
+@import "_media"; // Always at the end
